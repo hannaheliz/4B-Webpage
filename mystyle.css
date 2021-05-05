@@ -104,3 +104,17 @@ body {
   animation-play-state: inherit;
   animation-iteration-count: infinite;
 }
+
+@keyframes look-about {
+  0% {left:20px;}
+  5% {left:30px;}
+  30% {left:30px;}
+  35% {left:10px;}
+  60% {left:10px;}
+  65% {left:20px;}
+  100% {left:20px;}
+}
+
+#skull:hover {
+  animation-play-state: running;
+}
