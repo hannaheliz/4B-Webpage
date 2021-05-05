@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  justify-content: center;
+  background:#e1d8c1;
+  background-color: #e1d8c1;
+background-image:  radial-gradient(#444cf7 1px, transparent 1px), radial-gradient(#444cf7 1px, #e5e5f7 1px);
+background-size: 40px 40px;
+background-position: 0 0,20px 20px;
+}
+
+
+#container {
+  position: relative;
+  margin: 0 auto;
+  top: 150px;
+  height: 300px;
+  width: 300px;
+}
+
+#skull {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  height: 200px;
+  width: 200px;
+  background: pink;
+  animation-play-state: paused;
+}
+
+#eye {
+  position: absolute;
+  left: 25px;
+  top: 40px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background: #000;
+  animation-play-state: inherit;
+}
+
+#bone-rect {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 400px;
+  width: 50px;
+  background: #CCC;
+}
+
+#bone-knob {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  border-radius: 50px;
+  background: #CCC;
+}
+
+.knob-loc {
+  left: -25px;
+  top: -25px;
+}
+
+.knob-loc2 {
+  left: 375px;
+  top: 25px;
+}
+
+.knob-loc3 {
+  left: -25px;
+  top: -25px;
+}
+
+.knob-loc4 {
+  left: -25px;
+  top: -25px;
+}
+
+#bone {
+  position: relative;
+}
+
+.bone {
+  transform: rotate(30deg);
+  left: 75px;
+  top: -32.5px;
+}
+
+.bone2 {
+  transform: rotate(-30deg);
+  left: 125px;
+  top: -52.5px;
+}
